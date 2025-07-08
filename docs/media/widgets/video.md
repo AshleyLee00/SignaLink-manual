@@ -5,7 +5,7 @@ description: 레이아웃과 플레이리스트에서 재생할 비디오 파일
 
 # 비디오
 
-[라이브러리 검색](/guide/layouts/editor/toolbar)에서 레이아웃과 플레이리스트에서 재생할 비디오 파일을 추가하세요.
+[라이브러리 검색](/layouts/editor/toolbar)에서 레이아웃과 플레이리스트에서 재생할 비디오 파일을 추가하세요.
 
 ::: info
 비디오|v4
@@ -13,8 +13,8 @@ description: 레이아웃과 플레이리스트에서 재생할 비디오 파일
 
 ## 개요
 
-- [라이브러리 검색](/guide/layouts/editor/library-search)에서 플레이리스트/레이아웃에 새 비디오 파일을 직접 [업로드](/guide/media/library#add-media-upload)합니다.
-- 플레이리스트와 레이아웃에 직접 업로드된 파일은 재사용을 위해 자동으로 [라이브러리](/guide/media/library)에 저장됩니다.
+- [라이브러리 검색](/layouts/editor/library-search)에서 플레이리스트/레이아웃에 새 비디오 파일을 직접 [업로드](/media/library#add-media-upload)합니다.
+- 플레이리스트와 레이아웃에 직접 업로드된 파일은 재사용을 위해 자동으로 [라이브러리](/media/library)에 저장됩니다.
 - 비디오 파일은 미리 라이브러리에 업로드할 수도 있습니다.
 
 ::: tip
@@ -23,9 +23,9 @@ H264 MP4 파일 형식을 권장합니다.
 비디오 파일을 업로드할 때 스크롤바를 사용하여 CMS에서 더 쉽게 식별할 수 있도록 썸네일로 사용할 프레임을 선택할 수 있습니다.
 :::
 
-- 플레이리스트에 직접 업로드된 비디오 파일에 대해 [시작 및 종료 시간](/guide/media/playlists#widget-expiry-dates)을 설정합니다.
+- 플레이리스트에 직접 업로드된 비디오 파일에 대해 [시작 및 종료 시간](/media/playlists#widget-expiry-dates)을 설정합니다.
 
-- 업로드 시 비디오 파일을 [폴더](/guide/tour/folders#saving-to-folders)에 저장하여 사용자에 대한 접근을 쉽게 제어합니다.
+- 업로드 시 비디오 파일을 [폴더](/tour/folders#saving-to-folders)에 저장하여 사용자에 대한 접근을 쉽게 제어합니다.
 
 - 업로드된 비디오 파일은 오프라인 재생을 위해 캐시됩니다.
 
@@ -44,12 +44,6 @@ H264 MP4 파일 형식을 권장합니다.
 
 ::: tip
 비디오 위젯을 사용하여 레이아웃과 재생 목록에 비디오 파일을 추가할 수 있습니다.
-:::
-
-::: warning
-**참고:**
-스케일링은 현재 Android, webOS 및 Tizen 플레이어(v2 R200부터)와 Windows 플레이어(v2 R253부터)에서 지원됩니다.
-비디오 위젯을 사용할 때 Tizen 플레이어에서는 전환이 지원되지 않습니다.
 :::
 
 ::: warning

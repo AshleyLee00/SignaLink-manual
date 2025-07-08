@@ -17,29 +17,29 @@ description: 레이아웃 에디터의 유연한 디자인 요소를 사용하�
 
 ![레이아웃 추가](/img/v4.1_layouts_add_layout.png)
 
-- [폴더](/guide/tour/folders)는 조직화뿐만 아니라 사용자 객체(레이아웃, 플레이리스트, 미디어 파일 등)를 다른 사용자/사용자 그룹과 쉽게 공유하는 데 사용됩니다. 폴더에 저장된 레이아웃은 이미 해당 폴더에 적용된 공유 옵션을 상속받습니다.
+- [폴더]( /tour/folders)는 조직화뿐만 아니라 사용자 객체(레이아웃, 플레이리스트, 미디어 파일 등)를 다른 사용자/사용자 그룹과 쉽게 공유하는 데 사용됩니다. 폴더에 저장된 레이아웃은 이미 해당 폴더에 적용된 공유 옵션을 상속받습니다.
 
 ::: tip
 사용자가 레이아웃 콘텐츠에 액세스해야 하는 경우(예: 레이아웃에 추가해야 하는 이미지 파일), 이들도 같은 폴더에 저장되어야 합니다!
 :::
 
-- 선택적 [태그](/guide/tour/tags)를 포함하세요.
+- 선택적 [태그]( /tour/tags)를 포함하세요.
 
 ::: tip
-태그와 폴더는 레이아웃 그리드 하단의 [선택된 항목으로](/guide/tour/cms-navigation#multi-select---with-selected) 옵션을 사용하여 여러 레이아웃에 할당할 수도 있습니다!
+태그와 폴더는 레이아웃 그리드 하단의 [선택된 항목으로]( /tour/cms-navigation#multi-select---with-selected) 옵션을 사용하여 여러 레이아웃에 할당할 수도 있습니다!
 :::
 
-- [인터랙티브 액션](/guide/layouts/interactive-actions)을 사용할 때 레이아웃의 **코드 식별자**로 사용할 수 있는 문자열입니다.
-- [재생 증명 보고서](/guide/displays/metrics)에 대한 통계 수집을 레이아웃에 대해 활성화할 수 있습니다.
+- [인터랙티브 액션]( /layouts/interactive-actions)을 사용할 때 레이아웃의 **코드 식별자**로 사용할 수 있는 문자열입니다.
+- [재생 증명 보고서]( /displays/metrics)에 대한 통계 수집을 레이아웃에 대해 활성화할 수 있습니다.
 
 ::: tip
-레이아웃에 대한 재생 증명 수집을 활성화하기 전에, [디스플레이 프로필 설정](/guide/displays/settings)을 사용하여 레이아웃이 스케줄될 **디스플레이**에 대해 **통계 수집 활성화** 체크박스가 활성화되었는지 확인하세요.
+레이아웃에 대한 재생 증명 수집을 활성화하기 전에, [디스플레이 프로필 설정]( /displays/settings)을 사용하여 레이아웃이 스케줄될 **디스플레이**에 대해 **통계 수집 활성화** 체크박스가 활성화되었는지 확인하세요.
 :::
 
 - 새 레이아웃 레코드를 **저장**하려면 클릭하세요.
 
 ::: tip
-[템플릿](/guide/layouts/templates)을 디자인의 기반으로 사용하려는 경우 레이아웃 에디터 내의 **도구 모음**에서 추가할 수 있습니다!
+[템플릿]( /layouts/templates)을 디자인의 기반으로 사용하려는 경우 레이아웃 에디터 내의 **도구 모음**에서 추가할 수 있습니다!
 :::
 
 ## 상태 표시줄
@@ -77,7 +77,7 @@ description: 레이아웃 에디터의 유연한 디자인 요소를 사용하�
 
 ![점프 리스트](/img/v4_layouts_jump_list.png)
 
-레이아웃 점프 리스트 옆에는 레이아웃이 [게시된](/guide/layouts#layouts-in-a-published-status) 상태인지 [초안](/guide/layouts#layouts-in-a-draft-status) 상태인지에 따라 사용 가능한 작업을 보여주는 항목 메뉴가 있습니다.
+레이아웃 점프 리스트 옆에는 레이아웃이 [게시된]( /layouts#layouts-in-a-published-status) 상태인지 [초안]( /layouts#layouts-in-a-draft-status) 상태인지에 따라 사용 가능한 작업을 보여주는 항목 메뉴가 있습니다.
 
 ## 속성 패널
 
@@ -99,20 +99,20 @@ description: 레이아웃 에디터의 유연한 디자인 요소를 사용하�
 
 - **배경 색상** 필드를 클릭하고 사용할 색상을 선택하세요.
 
-- 도구 모음의 [이미지 라이브러리 검색](/guide/layouts/editor/library-search)에서 이미지를 드래그하여 **배경 이미지** 상자에 놓으세요.
+- 도구 모음의 [이미지 라이브러리 검색]( /layouts/editor/library-search)에서 이미지를 드래그하여 **배경 이미지** 상자에 놓으세요.
 - **업로드**를 사용하여 새 이미지를 선택하고 추가하세요.
 
 ::: tip
 여기서 업로드된 이미지는 자동으로 CMS 라이브러리에 저장됩니다!
 :::
 
-- 드롭다운을 사용하여 디스플레이에 가장 잘 맞는 [해상도](/guide/layouts#resolutions)를 설정하세요.
+- 드롭다운을 사용하여 디스플레이에 가장 잘 맞는 [해상도]( /layouts#resolutions)를 설정하세요.
 
 ::: tip
 사용자 정의 해상도는 슈퍼 관리자가 생성할 수 있습니다!
 :::
 
-- 레이아웃에 추가된 모든 위젯에 기본 [전환](/guide/tour/transitions) 설정을 적용하려면 체크하세요.
+- 레이아웃에 추가된 모든 위젯에 기본 [전환]( /tour/transitions) 설정을 적용하려면 체크하세요.
 
 ## 레이어링
 
@@ -133,7 +133,7 @@ description: 레이아웃 에디터의 유연한 디자인 요소를 사용하�
 ::: tip
 숫자가 높을수록 레이어가 높아집니다.
 
-[컨텍스트 메뉴](/guide/layouts/editor#context-menu)와 [레이어 제어 패널](/guide/layouts/editor#layer-control)을 사용하여 선택된 항목을 쉽게 앞뒤로 이동하세요.
+[컨텍스트 메뉴]( /layouts/editor#context-menu)와 [레이어 제어 패널]( /layouts/editor#layer-control)을 사용하여 선택된 항목을 쉽게 앞뒤로 이동하세요.
 :::
 
 ::: warning
@@ -152,9 +152,9 @@ description: 레이아웃 에디터의 유연한 디자인 요소를 사용하�
 작업 중인 화면 크기에 따라 적절한 수준으로만 확장됩니다. 1600px 미만의 화면에서 레이아웃 에디터를 사용하면 볼 수 있는 총 사용 가능한 수준 수가 제한됩니다.
 :::
 
-[템플릿](/guide/layouts/templates)은 레이아웃 에디터 내의 도구상자에서 선택됩니다.
+[템플릿]( /layouts/templates)은 레이아웃 에디터 내의 도구상자에서 선택됩니다.
 
-템플릿 아래의 버튼을 클릭하여 [SignaLink Exchange](/guide/layouts#SignaLink-exchange)에서 설계된 템플릿 중 하나를 선택하세요!
+템플릿 아래의 버튼을 클릭하여 [SignaLink Exchange]( /layouts#SignaLink-exchange)에서 설계된 템플릿 중 하나를 선택하세요!
 
 ::: warning
 **템플릿**을 선택하면 현재 작업 중인 레이아웃이 선택한 템플릿으로 대체됩니다. 이 작업은 되돌릴 수 없으므로 주의해서 사용해야 합니다.
@@ -209,7 +209,7 @@ description: 레이아웃 에디터의 유연한 디자인 요소를 사용하�
 
 ![위젯 옵션](/img/v4_layouts_editor_widget_options.png)
 
-옵션에는 위젯에 [오디오](/guide/media/modules/audio) 파일을 첨부하는 것과 사용자/사용자 그룹에 대한 선택된 항목의 보기, 편집 및 삭제를 제어하는 [공유](/guide/users/features-and-sharing) 옵션이 포함됩니다.
+옵션에는 위젯에 [오디오]( /media/modules/audio) 파일을 첨부하는 것과 사용자/사용자 그룹에 대한 선택된 항목의 보기, 편집 및 삭제를 제어하는 [공유]( /users/features-and-sharing) 옵션이 포함됩니다.
 
 ## 미리보기
 
@@ -225,4 +225,4 @@ description: 레이아웃 에디터의 유연한 디자인 요소를 사용하�
 
 ## 다음 단계
 
-[데이터 위젯](/guide/layouts/editor/data-widgets) 
+[데이터 위젯]( /layouts/editor/data-widgets) 

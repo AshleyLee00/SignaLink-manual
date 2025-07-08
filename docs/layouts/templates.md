@@ -7,7 +7,7 @@ description: 템플릿을 사용하여 디자인 프로세스 가속화 및 기�
 
 템플릿은 디자인 프로세스를 빠르게 하고 기업 이미지/표준을 유지하는 좋은 방법입니다.
 
-템플릿은 레이아웃 에디터 내의 [도구상자](/guide/layouts/editor#toolbox)에서 선택됩니다.
+템플릿은 레이아웃 에디터 내의 [도구상자]( /layouts/editor#toolbox)에서 선택됩니다.
 
 ## 템플릿 생성
 
@@ -17,12 +17,12 @@ description: 템플릿을 사용하여 디자인 프로세스 가속화 및 기�
 
 ![템플릿으로 저장](/img/v4_layouts_templates_save_as_template.png)
 
-- 템플릿에 **이름**을 지정하고 선택적 [태그](/guide/tour/tags)를 포함하세요.
+- 템플릿에 **이름**을 지정하고 선택적 [태그]( /tour/tags)를 포함하세요.
 
 - **저장**을 클릭하세요.
 
 ::: tip
-템플릿은 레이아웃의 정확한 복사본이므로 템플릿으로 저장하기 전에 레이아웃을 [게시](/guide/layouts#layouts-in-a-published-status)하여 변경사항을 보존하세요!
+템플릿은 레이아웃의 정확한 복사본이므로 템플릿으로 저장하기 전에 레이아웃을 [게시]( /layouts#layouts-in-a-published-status)하여 변경사항을 보존하세요!
 :::
 
 ## 템플릿 사용
@@ -67,4 +67,4 @@ description: 템플릿을 사용하여 디자인 프로세스 가속화 및 기�
 
 ## 다음 단계
 
-[레이아웃 에디터](/guide/layouts/editor) 
+[레이아웃 에디터]( /layouts/editor) 

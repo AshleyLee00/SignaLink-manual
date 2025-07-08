@@ -7,8 +7,8 @@ description: 레이아웃의 재생 순서를 보장하는 레이아웃 리스�
 
 SignaLink에는 두 가지 **캠페인** 유형이 있습니다:
 
-- [레이아웃 리스트](/guide/layouts/campaigns#content-create-a-layout-list) - 순서가 지정된 레이아웃 컬렉션
-- [광고 캠페인](/guide/layouts/ad-campaigns) - 광고 캠페인 생성 허용 ([기능](/guide/users/features-and-sharing#content-features) 활성화)
+- [레이아웃 리스트]( /layouts/campaigns#content-create-a-layout-list) - 순서가 지정된 레이아웃 컬렉션
+- [광고 캠페인]( /layouts/ad-campaigns) - 광고 캠페인 생성 허용 ([기능]( /users/features-and-sharing#content-features) 활성화)
 
 ## 레이아웃 리스트 생성
 
@@ -30,16 +30,16 @@ SignaLink에는 두 가지 **캠페인** 유형이 있습니다:
 
 ![레이아웃 리스트 캠페인 추가](/img/v4_layouts_campaign_add_layout_list.png)
 
-[폴더](/guide/tour/folders)는 조직화, 검색 및 다른 사용자/사용자 그룹과 사용자 객체를 쉽게 [공유](/guide/users/features-and-sharing#content-share)하는 데 사용됩니다. 폴더에 저장된 캠페인은 해당 폴더에 적용된 액세스 옵션을 상속받습니다.
+[폴더]( /tour/folders)는 조직화, 검색 및 다른 사용자/사용자 그룹과 사용자 객체를 쉽게 [공유]( /users/features-and-sharing#content-share)하는 데 사용됩니다. 폴더에 저장된 캠페인은 해당 폴더에 적용된 액세스 옵션을 상속받습니다.
 
 ::: tip
 사용자가 레이아웃/레이아웃 콘텐츠에 액세스해야 하는 경우, 이들도 같은 폴더에 저장되어야 합니다!
 :::
 
-- CMS에서 쉽게 식별할 수 있도록 캠페인에 **이름**을 지정하고 선택적 [태그](/guide/tour/tags)를 포함하세요.
+- CMS에서 쉽게 식별할 수 있도록 캠페인에 **이름**을 지정하고 선택적 [태그]( /tour/tags)를 포함하세요.
 
 ::: tip
-태그와 폴더는 캠페인 그리드 하단의 [선택된 항목으로](/guide/tour/cms-navigation#content-multi-select---with-selected) 옵션을 사용하여 여러 캠페인에 할당할 수도 있습니다!
+태그와 폴더는 캠페인 그리드 하단의 [선택된 항목으로]( /tour/cms-navigation#content-multi-select---with-selected) 옵션을 사용하여 여러 캠페인에 할당할 수도 있습니다!
 :::
 
 ### 사이클 기반 재생
@@ -79,8 +79,8 @@ SignaLink에는 두 가지 **캠페인** 유형이 있습니다:
 참조 탭을 사용하여 선택된 캠페인에 대한 참조 정보를 제공할 수 있습니다. 추가되면 이 정보는 캠페인 그리드와 API를 통해 볼 수 있습니다.
 :::
 
-캠페인 그리드의 행 메뉴를 사용하여 캠페인을 쉽게 복사하고 선택된 사용자/사용자 그룹에 대한 [공유](/guide/users/features-and-sharing#content-share) 옵션을 활성화하세요.
+캠페인 그리드의 행 메뉴를 사용하여 캠페인을 쉽게 복사하고 선택된 사용자/사용자 그룹에 대한 [공유]( /users/features-and-sharing#content-share) 옵션을 활성화하세요.
 
 ::: tip
-레이아웃은 [레이아웃](/guide/layouts#content-layout-grid) 그리드에서 직접 캠페인에 할당할 수 있습니다. 추가할 레이아웃의 행 메뉴를 사용하고 **캠페인에 할당**을 클릭하세요. 레이아웃은 기본적으로 선택된 캠페인의 끝에 할당됩니다!
+레이아웃은 [레이아웃]( /layouts#content-layout-grid) 그리드에서 직접 캠페인에 할당할 수 있습니다. 추가할 레이아웃의 행 메뉴를 사용하고 **캠페인에 할당**을 클릭하세요. 레이아웃은 기본적으로 선택된 캠페인의 끝에 할당됩니다!
 ::: 

@@ -19,7 +19,7 @@ description: SignaLink 대시보드 서비스를 사용하도록 구성된 대�
 - 임베드할 URL을 입력하세요.
 
 ::: tip
-이 서비스와 함께 사용할 URL을 얻는 방법, 인증 메커니즘 및 가능한 제한사항에 대한 자세한 정보는 다음 페이지를 참조하세요: [SignaLink 대시보드 서비스](/docs/setup/SignaLink-dashboard-service)
+이 서비스와 함께 사용할 URL을 얻는 방법, 인증 메커니즘 및 가능한 제한사항에 대한 자세한 정보는 다음 페이지를 참조하세요: [SignaLink 대시보드 서비스](/setup/SignaLink-dashboard-service)
 :::
 
 - 분 단위로 업데이트 간격을 제공하세요.

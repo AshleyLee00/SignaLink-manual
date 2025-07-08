@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 const nav = [
-  { text: '투어', link: '/tour/index' },
+  { text: '투어', link: '/tour/' },
   { text: '사용자', link: '/users/' },
   { text: '디스플레이', link: '/displays/' },
   { text: '레이아웃', link: '/layouts/' },
@@ -15,7 +15,7 @@ const sidebar = {
       text: '시작하기',
       collapsed: false,
       items: [
-        { text: '투어', link: '/tour/index' },
+        { text: '투어', link: '/tour/' },
         { text: '최초 사용자 액세스', link: '/tour/user-access' },
         { text: 'CMS 네비게이션', link: '/tour/cms-navigation' },
         { text: 'CMS 관리자 설정', link: '/tour/cms-settings' },
@@ -76,34 +76,40 @@ const sidebar = {
       text: '미디어',
       collapsed: false,
               items: [
-          { text: '미디어 라이브러리', link: '/media/' },
-          { text: '라이브러리', link: '/media/library' }
+          { text: '미디어 개요', link: '/media/' },
+          { text: '라이브러리', link: '/media/library' },
+          { text: '플레이리스트', link: '/media/playlists' },
+          { text: '모듈 관리', link: '/media/modules' },
+          { text: '커넥터 관리', link: '/media/connectors' },
+          { text: '대시보드 서비스', link: '/media/dashboard-service' },
+          { text: '이미지 크기 조정', link: '/media/resizing-images' },
+          { text: '라이브러리 정리', link: '/media/tidy-library' }
         ]
     },
     {
       text: '위젯',
       collapsed: false,
               items: [
-          { text: '위젯 개요', link: '/widgets/' },
-          { text: '오디오', link: '/widgets/audio' },
-          { text: '캘린더', link: '/widgets/calendar' },
-          { text: '시계', link: '/widgets/clock' },
-          { text: '카운트다운', link: '/widgets/countdown' },
-          { text: '통화', link: '/widgets/currencies' },
-          { text: '대시보드', link: '/widgets/dashboard' },
-          { text: '데이터셋', link: '/widgets/dataset' },
-          { text: '임베디드', link: '/widgets/embedded' },
-          { text: '긴급 알림', link: '/widgets/emergency-alerts' },
-          { text: '플래시', link: '/widgets/flash' },
-          { text: '구글 트래픽', link: '/widgets/google-traffic' },
-          { text: 'HLS', link: '/widgets/hls' },
-          { text: 'HTML 패키지', link: '/widgets/html-package' },
-          { text: '이미지', link: '/widgets/image' },
-          { text: '로컬 비디오', link: '/widgets/local-video' },
-          { text: '마스토돈', link: '/widgets/mastodon' },
-          { text: '메뉴 보드 카테고리', link: '/widgets/menu-boards-category' },
-          { text: '비디오', link: '/widgets/video' },
-          { text: '웹페이지', link: '/widgets/webpage' }
+          { text: '위젯 개요', link: '/media/widgets/' },
+          { text: '오디오', link: '/media/widgets/audio' },
+          { text: '캘린더', link: '/media/widgets/calendar' },
+          { text: '시계', link: '/media/widgets/clock' },
+          { text: '카운트다운', link: '/media/widgets/countdown' },
+          { text: '통화', link: '/media/widgets/currencies' },
+          { text: '대시보드', link: '/media/widgets/dashboard' },
+          { text: '데이터셋', link: '/media/widgets/dataset' },
+          { text: '임베디드', link: '/media/widgets/embedded' },
+          { text: '긴급 알림', link: '/media/widgets/emergency-alerts' },
+          { text: '플래시', link: '/media/widgets/flash' },
+          { text: '구글 트래픽', link: '/media/widgets/google-traffic' },
+          { text: 'HLS', link: '/media/widgets/hls' },
+          { text: 'HTML 패키지', link: '/media/widgets/html-package' },
+          { text: '이미지', link: '/media/widgets/image' },
+          { text: '로컬 비디오', link: '/media/widgets/local-video' },
+          { text: '마스토돈', link: '/media/widgets/mastodon' },
+          { text: '메뉴 보드 카테고리', link: '/media/widgets/menu-boards-category' },
+          { text: '비디오', link: '/media/widgets/video' },
+          { text: '웹페이지', link: '/media/widgets/webpage' }
         ]
     },
     {
@@ -258,34 +264,24 @@ export default defineConfig({
               text: 'Media',
               collapsed: false,
               items: [
-                { text: 'Media Library', link: '/en/media/' },
-                { text: 'Library', link: '/en/media/library' }
+                { text: 'Media Overview', link: '/en/media/' },
+                { text: 'Library', link: '/en/media/library' },
+                { text: 'Playlists', link: '/en/media/playlists' },
+                { text: 'Datasets', link: '/en/media/datasets' },
+                { text: 'Module Management', link: '/en/media/modules' },
+                { text: 'Connector Management', link: '/en/media/connectors' },
+                { text: 'Dashboard Service', link: '/en/media/dashboard-service' },
+                { text: 'Image Resizing', link: '/en/media/resizing-images' },
+                { text: 'Tidy Library', link: '/en/media/tidy-library' }
               ]
             },
             {
               text: 'Widgets',
               collapsed: false,
               items: [
-                { text: 'Widget Overview', link: '/en/widgets/' },
-                { text: 'Audio', link: '/en/widgets/audio' },
-                { text: 'Calendar', link: '/en/widgets/calendar' },
-                { text: 'Clock', link: '/en/widgets/clock' },
-                { text: 'Countdown', link: '/en/widgets/countdown' },
-                { text: 'Currencies', link: '/en/widgets/currencies' },
-                { text: 'Dashboard', link: '/en/widgets/dashboard' },
-                { text: 'Dataset', link: '/en/widgets/dataset' },
-                { text: 'Embedded', link: '/en/widgets/embedded' },
-                { text: 'Emergency Alerts', link: '/en/widgets/emergency-alerts' },
-                { text: 'Flash', link: '/en/widgets/flash' },
-                { text: 'Google Traffic', link: '/en/widgets/google-traffic' },
-                { text: 'HLS', link: '/en/widgets/hls' },
-                { text: 'HTML Package', link: '/en/widgets/html-package' },
-                { text: 'Image', link: '/en/widgets/image' },
-                { text: 'Local Video', link: '/en/widgets/local-video' },
-                { text: 'Mastodon', link: '/en/widgets/mastodon' },
-                { text: 'Menu Boards Category', link: '/en/widgets/menu-boards-category' },
-                { text: 'Video', link: '/en/widgets/video' },
-                { text: 'Webpage', link: '/en/widgets/webpage' }
+                { text: 'Audio', link: '/en/media/widgets/audio' },
+                { text: 'Clock', link: '/en/media/widgets/clock' },
+                { text: 'Image', link: '/en/media/widgets/image' }
               ]
             },
             {

@@ -23,7 +23,7 @@ SignaLink의 명령 기능은 사용자가 **XMR**, **일정** 또는 **레이�
 
 ![디스플레이 명령](/img/v4_displays_commands.png)
 
-명령의 행 메뉴를 사용하여 편집, 삭제 및 [공유](/guide/users/features-and-sharing#content-share) 옵션을 설정하세요.
+명령의 행 메뉴를 사용하여 편집, 삭제 및 [공유](/users/features-and-sharing#content-share) 옵션을 설정하세요.
 
 ### 명령 추가
 
@@ -188,7 +188,7 @@ SignaLink for Android [시간대 변경을 위한 헬퍼 명령](/docs/setup/hel
 명령이 사용 가능한 디스플레이 유형을 선택하세요. 비워두면 모든 유형의 디스플레이에 명령이 적용됩니다.
 
 ::: tip
-**명령** 및 **검증** 문자열은 [디스플레이 프로필](/guide/displays/settings#setting_on_the_display)을 편집하고 **명령** 탭을 사용하여 재정의할 수 있습니다!
+**명령** 및 **검증** 문자열은 [디스플레이 프로필]( /displays/settings#setting_on_the_display)을 편집하고 **명령** 탭을 사용하여 재정의할 수 있습니다!
 :::
 
 ## XMR 명령 전송

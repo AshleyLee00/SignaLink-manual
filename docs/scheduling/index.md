@@ -9,14 +9,14 @@ SignaLink는 콘텐츠가 적절한 시간과 장소에 표시되도록 보장�
 
 ## 기본 스케줄링
 
-- [간단한 스케줄링](/guide/scheduling/simple) - 기본 스케줄 생성 가이드
-- [스케줄링 이벤트](/guide/scheduling/events) - 스케줄된 이벤트 생성 및 관리
-- [스케줄 관리](/guide/scheduling/management) - 그리드 및 캘린더 뷰를 사용한 스케줄 관리
+- [간단한 스케줄링](/scheduling/simple) - 기본 스케줄 생성 가이드
+- [스케줄링 이벤트](/scheduling/events) - 스케줄된 이벤트 생성 및 관리
+- [스케줄 관리](/scheduling/management) - 그리드 및 캘린더 뷰를 사용한 스케줄 관리
 
 ## 고급 스케줄링
 
-- [데이파팅](/guide/scheduling/dayparting) - 간소화된 스케줄링을 위한 사용자 정의 일부 생성
-- [지리적 위치 스케줄링](/guide/scheduling/geolocation) - 지도 통합이 포함된 위치 인식 스케줄링
+- [데이파팅](/scheduling/dayparting) - 간소화된 스케줄링을 위한 사용자 정의 일부 생성
+- [지리적 위치 스케줄링](/scheduling/geolocation) - 지도 통합이 포함된 위치 인식 스케줄링
 
 ## 주요 기능
 

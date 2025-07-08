@@ -29,7 +29,7 @@ description: 오버레이를 사용하여 기존 콘텐츠 위에 추가 콘텐�
 
 ## 오버레이 스케줄링
 
-오버레이는 [스케줄러](/guide/scheduling/management)를 사용하여 스케줄링할 수 있습니다:
+오버레이는 [스케줄러]( /scheduling/management)를 사용하여 스케줄링할 수 있습니다:
 
 ![오버레이 이벤트](/img/v4_layouts_overlay_event.png)
 
@@ -47,4 +47,4 @@ description: 오버레이를 사용하여 기존 콘텐츠 위에 추가 콘텐�
 
 ## 다음 단계
 
-[레이아웃 에디터](/guide/layouts/editor) 
+[레이아웃 에디터]( /layouts/editor) 

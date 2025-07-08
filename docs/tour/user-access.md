@@ -123,6 +123,3 @@ CMS의 **네비게이션 메뉴** 위치를 변경하는 경우 변경사항을 
 현재 CMS는 개별 사용자에게 애플리케이션에 대한 액세스를 취소하는 방법을 제공하지 않습니다. [애플리케이션](/guide/tour/cms-settings#applications) 제거를 요청하려면 관리자에게 문의하세요.
 :::
 
-#### 다음...
-
-[CMS 네비게이션](/guide/tour/cms-navigation) 

@@ -13,12 +13,12 @@ description: 위치 인식 이벤트 스케줄링
 
 ## 위치 정의
 
-- 스케줄 [이벤트](/guide/scheduling/events) 양식에서 **지리적 위치** 탭을 클릭합니다.
+- 스케줄 [이벤트](/scheduling/events) 양식에서 **지리적 위치** 탭을 클릭합니다.
 
 - **지리적 스케줄** 상자를 체크하여 활성화하고 위치를 정의합니다.
 
 ::: tip
-열 때 지도는 [디스플레이](/guide/tour/cms-settings#displays) 탭의 **CMS 설정**에 입력된 DEFAULT_LAT 및 DEFAULT_LONG으로 기본 설정됩니다.
+열 때 지도는 [디스플레이](/tour/cms-settings#displays) 탭의 **CMS 설정**에 입력된 DEFAULT_LAT 및 DEFAULT_LONG으로 기본 설정됩니다.
 :::
 
 - 지도 왼쪽 상단의 버튼을 사용하여 확대/축소합니다.
@@ -43,5 +43,5 @@ description: 위치 인식 이벤트 스케줄링
 - 레이어 제거를 저장하려면 회색 **저장** 버튼을 클릭합니다.
 
 ::: tip
-[캘린더](/guide/scheduling/management#calendar-view)의 아이콘을 클릭하거나 [그리드](/guide/scheduling/management#grid-view) 뷰에서 행 메뉴를 사용하여 이 스케줄을 편집하세요!
+[캘린더](/scheduling/management#calendar-view)의 아이콘을 클릭하거나 [그리드](/scheduling/management#grid-view) 뷰에서 행 메뉴를 사용하여 이 스케줄을 편집하세요!
 ::: 
