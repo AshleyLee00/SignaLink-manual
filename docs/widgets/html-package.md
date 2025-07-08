@@ -21,4 +21,6 @@ HTML 패키지|v4
 - 재생목록에 직접 업로드된 HTML 파일에 대해 [시작 및 종료 시간](media_playlists.html#content-widget-expiry-dates)을 설정하세요.
 - 업로드 시 HTML 파일을 [폴더](tour_folders.html#content-saving-to-folders)에 저장하여 사용자 액세스를 쉽게 제어하세요.
 
-![HTML 패키지](/img/v4_media_module_htmlpackage.png) 
+::: tip
+HTML 패키지 위젯을 사용하여 완전한 HTML 패키지를 업로드하고 표시할 수 있습니다.
+::: 

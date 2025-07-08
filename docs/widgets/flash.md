@@ -27,4 +27,6 @@ Adobe Flash|v4
 - 재생목록에 직접 업로드된 SWF 파일에 대해 [시작 및 종료 시간](media_playlists.html#content-widget-expiry-dates)을 설정하세요.
 - 업로드 시 SWF 파일을 [폴더](tour_folders.html#content-saving-to-folders)에 저장하여 사용자 액세스를 쉽게 제어하세요.
 
-![플래시](/img/v4_media_module_flash.png) 
+::: tip
+플래시 위젯을 사용하여 레이아웃과 재생 목록에 SWF 파일을 추가할 수 있습니다.
+::: 
