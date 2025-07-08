@@ -2,15 +2,17 @@
 layout: home
 
 hero:
-  name: SingaLink CMS
-  text: 디지털 사이니지 관리 시스템
+  name: SingaLink
   tagline: 간단하고 강력한 디지털 사이니지 솔루션
+  image:
+    src: /signalink/SIGNALINK-ad.png
+    alt: SignaLink CMS
   actions:
     - theme: brand
       text: 시작하기
       link: /tour/index
     - theme: alt
-      text: Homepage
+      text: 디지탈웨어 홈페이지
       link: http://digitalware.co.kr
 
 features:

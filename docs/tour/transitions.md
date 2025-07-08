@@ -5,18 +5,6 @@ description: 사용자를 위한 전환 관리 옵션
 
 # 전환 관리
 
-::: feat
-전환|v4
-:::
-
-::: info
-**참고:** 다음 위젯에 대해 Tizen 플레이어는 전환을 지원하지 않습니다:
-
-- [비디오]( /media/modules/video)
-- [비디오 입력](  /media/modules/video-in)
-- [로컬 비디오]( /media/modules/local-video)
-:::
-
 전환은 CMS 메인 메뉴의 **관리** 섹션에서 **전환** 페이지를 통해 관리됩니다. 미디어 항목에 할당하기 위해 사용자에게 사용 가능해야 하는 전환을 구성합니다:
 
 ![전환 그리드](/img/v4_tour_transitions_grid.png)

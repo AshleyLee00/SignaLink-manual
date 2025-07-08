@@ -13,7 +13,7 @@ const sidebar = {
   '/': [
     {
       text: '시작하기',
-      collapsed: false,
+      collapsed: true,
       items: [
         { text: '투어', link: '/tour/' },
         { text: '최초 사용자 액세스', link: '/tour/user-access' },
@@ -26,7 +26,7 @@ const sidebar = {
     },
     {
       text: '사용자 관리',
-      collapsed: false,
+      collapsed: true,
               items: [
           { text: '사용자 관리', link: '/users/' },
           { text: '관리자', link: '/users/administration' },
@@ -40,7 +40,7 @@ const sidebar = {
     },
     {
       text: '디스플레이',
-      collapsed: false,
+      collapsed: true,
               items: [
           { text: '디스플레이 개요', link: '/displays/' },
           { text: '디스플레이란?', link: '/displays/what-is-a-display' },
@@ -54,7 +54,7 @@ const sidebar = {
     },
     {
       text: '레이아웃',
-      collapsed: false,
+      collapsed: true,
               items: [
           { text: '레이아웃 개요', link: '/layouts/' },
           { text: '레이아웃 에디터', link: '/layouts/editor' },
@@ -74,7 +74,7 @@ const sidebar = {
     },
     {
       text: '미디어',
-      collapsed: false,
+      collapsed: true,
               items: [
           { text: '미디어 개요', link: '/media/' },
           { text: '라이브러리', link: '/media/library' },
@@ -88,7 +88,7 @@ const sidebar = {
     },
     {
       text: '위젯',
-      collapsed: false,
+      collapsed: true,
               items: [
           { text: '위젯 개요', link: '/media/widgets/' },
           { text: '오디오', link: '/media/widgets/audio' },
@@ -114,17 +114,10 @@ const sidebar = {
     },
     {
       text: '스케줄링',
-      collapsed: false,
+      collapsed: true,
               items: [
           { text: '스케줄링 개요', link: '/scheduling/' },
           { text: '이벤트', link: '/scheduling/events' }
-        ]
-    },
-    {
-      text: '문제 해결',
-      collapsed: false,
-              items: [
-          { text: '문제 해결', link: '/troubleshooting' }
         ]
     }
   ]
@@ -136,7 +129,8 @@ export default defineConfig({
   base: '/SignaLink-manual/',
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/signalink/favicon.png' }],
-    ['link', { rel: 'preload', href: '/NoonnuBasicGothicRegular.ttf', as: 'font', type: 'font/ttf', crossorigin: 'anonymous' }]
+    ['link', { rel: 'preload', href: '/Pretendard-Regular.woff', as: 'font', type: 'font/woff', crossorigin: 'anonymous' }],
+    ['link', { rel: 'preload', href: '/Pretendard-Bold.woff', as: 'font', type: 'font/woff', crossorigin: 'anonymous' }]
   ],
   vite: {
     css: {
@@ -201,7 +195,7 @@ export default defineConfig({
           '/en/': [
             {
               text: 'Getting Started',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { text: 'Introduction', link: '/en/' },
                 { text: 'Tour', link: '/en/tour/index' },
@@ -215,7 +209,7 @@ export default defineConfig({
             },
             {
               text: 'User Management',
-              collapsed: false,
+              collapsed: true,
                               items: [
                   { text: 'User Management', link: '/en/users/' },
                   { text: 'Administration', link: '/en/users/administration' },
@@ -229,7 +223,7 @@ export default defineConfig({
             },
             {
               text: 'Displays',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { text: 'Display Overview', link: '/en/displays/' },
                 { text: 'What is a Display?', link: '/en/displays/what-is-a-display' },
@@ -243,7 +237,7 @@ export default defineConfig({
             },
             {
               text: 'Layouts',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { text: 'Layout Overview', link: '/en/layouts/' },
                 { text: 'Layout Editor', link: '/en/layouts/editor' },
@@ -263,7 +257,7 @@ export default defineConfig({
             },
             {
               text: 'Media',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { text: 'Media Overview', link: '/en/media/' },
                 { text: 'Library', link: '/en/media/library' },
@@ -278,7 +272,7 @@ export default defineConfig({
             },
             {
               text: 'Widgets',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { text: 'Audio', link: '/en/media/widgets/audio' },
                 { text: 'Clock', link: '/en/media/widgets/clock' },
@@ -287,7 +281,7 @@ export default defineConfig({
             },
             {
               text: 'Scheduling',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { text: 'Scheduling Overview', link: '/en/scheduling/' },
                 { text: 'Events', link: '/en/scheduling/events' }
@@ -295,7 +289,7 @@ export default defineConfig({
             },
             {
               text: 'Troubleshooting',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { text: 'Troubleshooting', link: '/en/troubleshooting' }
               ]
@@ -339,6 +333,13 @@ export default defineConfig({
       width: 32, 
       height: 32,
       alt: 'SignaLink'
+    },
+    sidebarMenuLabel: '메뉴',
+    returnToTopLabel: '맨 위로',
+    outlineTitle: '목차',
+    docFooter: {
+      prev: '이전 페이지',
+      next: '다음 페이지'
     }
   }
 }) 
