@@ -1,0 +1,46 @@
+---
+title: 이미지
+description: 레이아웃 및 플레이리스트에 포함할 이미지 파일 추가
+---
+
+# 이미지
+
+[라이브러리 검색](/guide/layouts/editor/library-search)에서 레이아웃 및 플레이리스트에 포함할 이미지 파일을 추가하세요.
+
+::: tip
+이미지 위젯은 v4부터 사용 가능합니다
+:::
+
+## 개요
+
+- 유효한 확장자: jpg,jpeg,png,bmp,gif,webp.
+
+::: warning
+애니메이션 gif는 모든 플레이어에서 지원되지 않습니다!
+:::
+
+- [라이브러리 검색](/guide/layouts/editor/library-search)에서 플레이리스트/레이아웃에 직접 새 이미지 파일을 [업로드](/guide/media/library#add-media-upload)하세요.
+- 플레이리스트 및 레이아웃에 직접 업로드된 파일은 재사용을 위해 [라이브러리](/guide/media/library)에 자동으로 저장됩니다.
+- 이미지 파일은 미리 라이브러리에 업로드할 수도 있습니다.
+
+::: tip
+업로드할 이미지 파일을 선택할 때 사용자는 이미지의 해상도를 확인하고 의도된 화면 크기 내에 유지해야 합니다. 매우 큰 이미지를 업로드하면 플레이어에 문제가 발생할 수 있으므로 주의해야 합니다.
+:::
+
+- 플레이리스트에 직접 업로드된 이미지 파일에 대해 [시작 및 종료 시간](/guide/media/playlists#widget-expiry-dates)을 설정하세요.
+
+- 업로드 시 이미지 파일을 [폴더](/guide/tour/folders)에 저장하여 사용자 접근을 쉽게 제어하세요.
+
+- 중앙, 늘리기 및 맞춤 크기 조정.
+
+- CMS를 떠나지 않고 Pixabay에서 사용할 이미지를 선택하세요.
+
+![이미지](/img/v4_media_module_image.png)
+
+::: warning
+**SignaLink는 디스플레이에 표시되는 콘텐츠를 제어하는 조치를 취하지 않으므로, 권리를 소유하지 않은 이미지는 적절히 출처를 표시해야 하는 것은 귀하의 책임입니다.**
+:::
+
+#### 다음...
+
+[이미지 크기 조정](/guide/media/resizing-images) 

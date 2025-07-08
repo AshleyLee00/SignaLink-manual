@@ -1,0 +1,190 @@
+.VPHomeHero .image {
+  max-width: none !important;
+  width: 100% !important;
+  height: 100% !important;
+  opacity: 0;
+  animation: fadeIn 1.2s ease-in 0.2s forwards;
+  position: absolute !important;
+  top: 0 !important;
+  left: auto !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  object-position: right center !important;
+}
+
+.VPHomeHero .main h1 {
+  font-size: 2.5rem !important;
+  line-height: 1.2 !important;
+}
+
+/* 로고 관련 스타일 수정 */
+.VPNav .VPNavBar .VPNavBarTitle .title {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+
+.VPNav .VPNavBar .VPNavBarTitle .title .text {
+  display: block !important;
+  font-size: 1.2rem !important;
+  font-weight: 600 !important;
+  color: var(--vp-c-text-1) !important;
+}
+
+.VPNav .VPNavBar .VPNavBarTitle .title .logo {
+  display: block !important;
+  width: 32px !important;
+  height: 32px !important;
+}
+
+/* 로고 이미지가 보이도록 강제 설정 */
+.VPNav .VPNavBar .VPNavBarTitle .title img {
+  display: block !important;
+  width: 32px !important;
+  height: 32px !important;
+  object-fit: contain !important;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* 검색 플러그인 스타일 */
+.search-box {
+  border: 1px solid var(--vp-c-divider) !important;
+  border-radius: 8px !important;
+}
+
+.search-box:focus-within {
+  border-color: var(--vp-c-brand) !important;
+  box-shadow: 0 0 0 2px rgba(21, 153, 124, 0.1) !important;
+}
+
+.search-result-item {
+  border-radius: 6px !important;
+}
+
+.search-result-item:hover {
+  background-color: rgba(21, 153, 124, 0.05) !important;
+}
+
+.search-result-item.active {
+  background-color: rgba(21, 153, 124, 0.1) !important;
+}
+
+/* VitePress 테마 색상 변수 재정의 */
+:root {
+  --vp-c-brand: #15997c;
+  --vp-c-brand-light: #1fc89c;
+  --vp-c-brand-dark: #0e6b54;
+  --vp-c-brand-lighter: #2dd4a8;
+  --vp-c-brand-darker: #0d5a47;
+  --vp-c-brand-mute: #1a7a62;
+  --vp-c-brand-mute-dark: #0e6b54;
+  --vp-c-brand-mute-darker: #0d5a47;
+  --vp-c-brand-mute-light: #2dd4a8;
+  --vp-c-brand-mute-lighter: #4ade80;
+  
+  /* 버튼 관련 색상 */
+  --vp-button-brand-bg: #15997c;
+  --vp-button-brand-hover-bg: #1fc89c;
+  --vp-button-brand-active-bg: #0e6b54;
+  --vp-button-brand-border: #15997c;
+  --vp-button-brand-hover-border: #1fc89c;
+  --vp-button-brand-active-border: #0e6b54;
+  
+  /* 링크 색상 */
+  --vp-c-text-code: #15997c;
+  --vp-c-text-link: #15997c;
+  --vp-c-text-link-hover: #1fc89c;
+  
+  /* 사이드바 활성 링크 */
+  --vp-c-sidebar-item-active: #15997c;
+  --vp-c-sidebar-item-active-bg: rgba(21, 153, 124, 0.1);
+  
+  /* 네비게이션 */
+  --vp-c-nav-item-hover-text: #15997c;
+  --vp-c-nav-item-hover-bg: rgba(21, 153, 124, 0.1);
+}
+
+/* 다크 모드에서도 동일한 색상 적용 */
+.dark {
+  --vp-c-brand: #15997c;
+  --vp-c-brand-light: #1fc89c;
+  --vp-c-brand-dark: #0e6b54;
+  --vp-c-brand-lighter: #2dd4a8;
+  --vp-c-brand-darker: #0d5a47;
+  --vp-c-brand-mute: #1a7a62;
+  --vp-c-brand-mute-dark: #0e6b54;
+  --vp-c-brand-mute-darker: #0d5a47;
+  --vp-c-brand-mute-light: #2dd4a8;
+  --vp-c-brand-mute-lighter: #4ade80;
+  
+  /* 버튼 관련 색상 */
+  --vp-button-brand-bg: #15997c;
+  --vp-button-brand-hover-bg: #1fc89c;
+  --vp-button-brand-active-bg: #0e6b54;
+  --vp-button-brand-border: #15997c;
+  --vp-button-brand-hover-border: #1fc89c;
+  --vp-button-brand-active-border: #0e6b54;
+  
+  /* 링크 색상 */
+  --vp-c-text-code: #15997c;
+  --vp-c-text-link: #15997c;
+  --vp-c-text-link-hover: #1fc89c;
+  
+  /* 사이드바 활성 링크 */
+  --vp-c-sidebar-item-active: #15997c;
+  --vp-c-sidebar-item-active-bg: rgba(21, 153, 124, 0.1);
+  
+  /* 네비게이션 */
+  --vp-c-nav-item-hover-text: #15997c;
+  --vp-c-nav-item-hover-bg: rgba(21, 153, 124, 0.1);
+}
+
+/* 로고와 텍스트 모두 표시 */
+.VPNav .VPNavBar .VPNavBarTitle .title {
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+
+/* 사이드바가 있는 페이지에서도 푸터 표시 */
+.VPLayout.has-sidebar .VPFooter {
+  display: block !important;
+}
+
+/* 사이드바가 있는 페이지에서 메인 콘텐츠 영역 조정 */
+.VPLayout.has-sidebar .VPContent {
+  padding-bottom: 0 !important;
+}
+
+/* 푸터 스타일링 */
+.VPFooter {
+  border-top: 1px solid var(--vp-c-divider);
+  padding: 24px 24px;
+  text-align: center;
+  font-size: 14px;
+  color: var(--vp-c-text-2);
+}
+
+.VPFooter .message {
+  margin-bottom: 8px;
+}
+
+.VPFooter .copyright {
+  color: var(--vp-c-text-3);
+}
+
+/* 푸터 링크 스타일 */
+.VPFooter a {
+  color: var(--vp-c-brand);
+  text-decoration: none;
+}
+
+.VPFooter a:hover {
+  color: var(--vp-c-brand-light);
+  text-decoration: underline;
+} 
