@@ -15,7 +15,7 @@ description: 위젯을 사용하여 동적 레이아웃 생성
 - 화면에 동적 콘텐츠 표시
 - CMS의 다른 사용자가 사용할 수 있도록 모듈 선택
 
-모든 위젯에는 SignaLink에게 사용자로부터 어떤 정보가 필요한지, 어떻게 표시되어야 하는지에 대한 구성 정보를 알려주는 관련 [모듈]( /media/widgets)이 있습니다.
+모든 위젯에는 SignaLink에게 사용자로부터 어떤 정보가 필요한지, 어떻게 표시되어야 하는지에 대한 구성 정보를 알려주는 관련 [모듈](/media/widgets)이 있습니다.
 
 ::: tip
 위젯은 관리자가 CMS의 **모듈** 섹션에서 비활성화/활성화할 수 있습니다.
@@ -30,7 +30,7 @@ SignaLink는 다음과 같은 위젯 유형을 제공합니다:
 - [이미지]( /media/widgets/image) - 이미지 파일 표시
 - [비디오]( /media/widgets/video) - 비디오 파일 재생
 - [시계]( /media/widgets/clock) - 아날로그/디지털 시계
-- [카운트다운]( /widgets/countdown) - 카운트다운 타이머
+- [카운트다운](/media/widgets/countdown) - 카운트다운 타이머
 
 ### 데이터 위젯
 - [캘린더]( /media/widgets/calendar) - iCal 피드 이벤트 표시
@@ -86,8 +86,3 @@ SignaLink는 다음과 같은 위젯 유형을 제공합니다:
 ## 데이터 위젯
 
 데이터 위젯은 외부 데이터 소스를 사용하여 동적 콘텐츠를 표시합니다. 자세한 내용은 [데이터 위젯 가이드]( /layouts/editor/data-widgets)를 참조하세요.
-
-## 다음 단계
-
-[데이터 위젯]( /layouts/editor/data-widgets)
-[레이아웃 에디터]( /layouts/editor) 

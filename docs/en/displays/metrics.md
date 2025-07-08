@@ -5,7 +5,7 @@ description: Reports provide a centralised area for analysis into Display perfor
 
 # Reporting
 
-SignaLink provides useful **metrics** which are [Feature](/guide/users/features-and-sharing) enabled to allow Users to view a variety of reports within the CMS.
+SignaLink provides useful **metrics** which are [Feature](/users/features-and-sharing) enabled to allow Users to view a variety of reports within the CMS.
 
 Reports provide a centralised area for analysis into **Display** performance and usage as well as detailed **Proof of Play** and **Library** usage reports. These reports can be viewed from **All Reports** under the **Reporting** section of the main CMS menu:
 
@@ -30,7 +30,7 @@ The CMS records the **bandwidth** used by each Display when connecting to XMDS f
 ::: tip
 Filtering to just one Display helps to better understand where bandwidth has been used.
 
-Did you know...you can set a bandwidth limit per [Display](/guide/displays)!
+Did you know...you can set a bandwidth limit per [Display](/displays)!
 :::
 
 Use the **All Reports** button to return to the Reporting dashboard or use the **Reports** drop down menu to select another 'Display' report to view.
@@ -69,7 +69,7 @@ Each **Display** can collect information to provide Proof of Play Reports on wha
 
 ![Proof of Play Type](/img/v4_displays_reporting_proof_of_play_type.png)
 
-To collect Proof of Play reports ensure that **Enable Stats Reporting** has been enabled and the **Aggregation level** has been set on a [Display Profile Setting](/guide/displays/settings)
+To collect Proof of Play reports ensure that **Enable Stats Reporting** has been enabled and the **Aggregation level** has been set on a [Display Profile Setting](/displays/settings)
 
 - **Individual** - statistics are recorded at the start and finish of each item individually and sent back to the CMS at each collection interval.
 - **Hourly** - records each item once, and includes the total number of times played and the length of time played during the hour and is sent back to the CMS on the next collection interval after the hour period has expired.
@@ -80,7 +80,7 @@ Players aggregate 'completed records' only, with collection made at the end of t
 :::
 
 ::: info
-Proof of Play collection can be enabled by default in the [CMS Settings](/guide/tour/cms-settings#proof-of-play-default-settings).
+Proof of Play collection can be enabled by default in the [CMS Settings](/tour/cms-settings#proof-of-play-default-settings).
 :::
 
 **Proof of Play** Reports:
@@ -140,7 +140,7 @@ Optionally disable the **Logo** shown on exported reports using the **General** 
 :::
 
 ::: tip
-Scheduled Reports can also be emailed to additional email addresses entered in the **Email addresses** field. Ensure that a **Sending email address** has been set on the [Network](/guide/tour/cms-settings#network) tab in CMS Settings.
+Scheduled Reports can also be emailed to additional email addresses entered in the **Email addresses** field. Ensure that a **Sending email address** has been set on the [Network](/tour/cms-settings#network) tab in CMS Settings.
 :::
 
 ## Report Schedules

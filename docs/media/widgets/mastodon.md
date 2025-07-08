@@ -11,17 +11,17 @@ description: 디스플레이에 마스토돈 소셜 피드 콘텐츠 표시
 마스토돈|v4
 :::
 
-마스토돈 위젯은 구성된 요소와 정적 템플릿에 공급되는 [모듈](/media/modules)에 입력된 URL에서 콘텐츠를 반환합니다.
+마스토돈 위젯은 구성된 요소와 정적 템플릿에 공급되는 [모듈](/media/connectors)에 입력된 URL에서 콘텐츠를 반환합니다.
 
 ## 마스토돈 요소
 
-마스토돈 위젯을 [레이아웃](/layouts/editor)에 추가할 때 [요소](/layouts/editor#content-data-widgets-and-elements)를 선택할 수 있어 사용자가 사용할 마스토돈 위젯의 구성 요소와 배치 위치를 더 잘 제어할 수 있습니다.
+마스토돈 위젯을 [레이아웃](/layouts/editor)에 추가할 때 [요소](/layouts/editor/data-widgets)를 선택할 수 있어 사용자가 사용할 마스토돈 위젯의 구성 요소와 배치 위치를 더 잘 제어할 수 있습니다.
 
 ![마스토돈 요소](/img/v4_media_modules_mastadon_elements.png)
 
-각 요소는 속성 패널에 구성 옵션 세트가 있습니다. 레이아웃에서 사용되는 각 요소에 대해 **구성** 탭에서 결과를 반환할 **해시태그**를 제공해야 합니다. 추가된 각 요소에 사용할 [데이터 슬롯](/layouts/editor#content-data-slots)을 지정하여 항목이 어떻게 순환되어야 하는지 제어하세요. 데이터 요소는 도형과 텍스트를 추가하기 위해 [전역 요소](/layouts/editor#content-global-elements)를 추가하여 더욱 보완할 수 있으며, 이 모든 것을 [요소 그룹](/layouts/editor#content-grouping-elements)에 넣어 더 쉽게 구성하고 배치할 수 있습니다.
+각 요소는 속성 패널에 구성 옵션 세트가 있습니다. 레이아웃에서 사용되는 각 요소에 대해 **구성** 탭에서 결과를 반환할 **해시태그**를 제공해야 합니다. 추가된 각 요소에 사용할 [데이터 슬롯](/layouts/editor/data-widgets#데이터-슬롯)을 지정하여 항목이 어떻게 순환되어야 하는지 제어하세요. 데이터 요소는 도형과 텍스트를 추가하기 위해 [전역 요소](/layouts/editor/global-elements)를 추가하여 더욱 보완할 수 있으며, 이 모든 것을 [요소 그룹](/layouts/editor/data-widgets#요소-그룹화)에 넣어 더 쉽게 구성하고 배치할 수 있습니다.
 
-[스텐실](/layouts/editor#content-stencils)을 활용하여 레이아웃에 사전 디자인된 요소 그룹을 추가하세요.
+[스텐실](/layouts/editor/data-widgets#스텐실)을 활용하여 레이아웃에 사전 디자인된 요소 그룹을 추가하세요.
 
 ::: tip
 스텐실의 모든 요소는 구성 시 '하나'로 취급되며 마우스 오른쪽 버튼 클릭으로 쉽게 복제할 수 있습니다!
@@ -29,7 +29,7 @@ description: 디스플레이에 마스토돈 소셜 피드 콘텐츠 표시
 
 ## 마스토돈 정적 템플릿
 
-[정적 템플릿](/layouts/editor#content-static-templates)은 반환된 항목이 어떻게 배치되고 스타일링되어야 하는지 정의하며 사전 스타일링된 템플릿을 사용하여 항목을 표시하는 간단한 방법입니다.
+[정적 템플릿](/layouts/editor/data-widgets#정적-템플릿)은 반환된 항목이 어떻게 배치되고 스타일링되어야 하는지 정의하며 사전 스타일링된 템플릿을 사용하여 항목을 표시하는 간단한 방법입니다.
 
 ![마스토돈 템플릿](/img/v4_media_modules_mastadon_templates.png)
 

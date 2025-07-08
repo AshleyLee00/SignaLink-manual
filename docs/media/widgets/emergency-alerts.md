@@ -27,10 +27,10 @@ Common Alerting Protocol (CAP) 피드의 데이터를 사용하여 경보 및 �
 
 ## 추가 읽기
 
-[커넥터 관리](/media_modules_connectors)
+[커넥터 관리](/media/connectors)
 
-[데이터 위젯](/layouts_editor_data_widgets)
+[데이터 위젯](/layouts/editor/data-widgets)
 
-[레이아웃 편집기](/layouts_editor)
+[레이아웃 편집기](/layouts/editor)
 
-[스케줄 기준](/developer/player-control/schedule-criteria) 
+[스케줄 기준](/scheduling/events) 

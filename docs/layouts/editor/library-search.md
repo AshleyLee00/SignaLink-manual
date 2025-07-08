@@ -15,7 +15,7 @@ description: 라이브러리 검색을 사용하여 레이아웃에 미디어를
 - 기타 미디어 파일
 
 ::: tip
-**기타 미디어** 검색에는 **유형** 드롭다운 메뉴에서 사용할 수 있는 [플래시]( /media/widgets/flash), [HTML 패키지]( /media/widgets/html-package), [PDF]( /media/widgets/pdf) 및 [파워포인트]( /media/widgets/powerpoint) 파일이 포함됩니다.
+**기타 미디어** 검색에는 **유형** 드롭다운 메뉴에서 사용할 수 있는 [플래시](/media/widgets/flash), [HTML 패키지](/media/widgets/html-package), [PDF](/media/widgets/pdf) 및 [파워포인트](/media/widgets/powerpoint) 파일이 포함됩니다.
 :::
 
 ![라이브러리 검색](/img/v4_layouts_library_search.png)

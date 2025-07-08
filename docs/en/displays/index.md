@@ -8,7 +8,7 @@ description: Configure and Manage Displays in your CMS
 The primary purpose of SignaLink is to show content on screens with the entire application suite existing for that one purpose. SignaLink provides a concept called **Displays** to manage when and how content is shown on a screen.
 
 ::: info
-Administrator documentation for Player Installation can be found in our [Administration Manual](/docs/setup/). Select your chosen Player to follow the **Installation** instructions and required steps to **Connect to your CMS**.
+Administrator documentation for Player Installation can be found in our Administration Manual. Select your chosen Player to follow the **Installation** instructions and required steps to **Connect to your CMS**.
 :::
 
 ::: tip
@@ -29,10 +29,10 @@ The Add Display (Code) function can be used after installing the Player in order
 Connect using Authentication Code
 :::
 
-Displays can be saved to [Folders](/guide/tour/folders) to easily control User/User Group levels of interaction for Displays as well as provide an additional way to organise.
+Displays can be saved to [Folders](/tour/folders) to easily control User/User Group levels of interaction for Displays as well as provide an additional way to organise.
 
 ::: tip
-Displays that are saved in Folders will inherit the View, Edit, Delete [Share](/guide/users/features-and-sharing#content-share) options that been applied to the destination Folder for the User/User Group!
+Displays that are saved in Folders will inherit the View, Edit, Delete [Share](/users/features-and-sharing#content-share) options that been applied to the destination Folder for the User/User Group!
 
 Assign multiple Displays to a Folder using the **With Selected** option at the bottom of the grid!
 :::
@@ -74,7 +74,7 @@ Include the **Commercial License** column using the **Column Visibility** button
 Each Display has a row menu containing a number of actions/shortcuts.
 
 ::: tip
-Selected actions allow for certain [Forms to be automatically submitted](/guide/tour/cms-navigation#content-automatic-submission-of-forms) such as **Authorise** and **Check Licence**. Actions that have an auto submit capability will display an option to enable. 
+Selected actions allow for certain [Forms to be automatically submitted](/tour/cms-navigation#content-automatic-submission-of-forms) such as **Authorise** and **Check Licence**. Actions that have an auto submit capability will display an option to enable. 
 :::
 
 ### Manage
@@ -95,7 +95,7 @@ Click **Edit** to manage configuration options for the Display:
 
 - Use the **General** tab to view the unique **Display Hardware Key** which is generated during installation, **Authorise a Display** to use an available Licence Pool slot and set a **Default Layout**.
 
-- Provide Display **Details** such as the **Latitude** and **Longitude** of the Display. If you are using the [Ad Campaign](/guide/layouts/campaigns#content-ad-campaigns) functionality ensure that you complete the **Cost per play** and **Impressions per play** fields on this tab for all selected Displays.
+- Provide Display **Details** such as the **Latitude** and **Longitude** of the Display. If you are using the [Ad Campaign](/layouts/campaigns#content-ad-campaigns) functionality ensure that you complete the **Cost per play** and **Impressions per play** fields on this tab for all selected Displays.
 
 ::: tip
 Additional fields have been included designed to enhance advertising needs such as:
@@ -110,7 +110,7 @@ Additional fields have been included designed to enhance advertising needs such 
 
 - Control **Email Alerts** and **Global Timeout** settings from the **Maintenance** tab.
 
-- Override [Display Profile Settings](/guide/displays/settings) for individual Displays using the **Settings** tab.
+- Override [Display Profile Settings](/displays/settings) for individual Displays using the **Settings** tab.
 
 ![Displays Edit Profile Settings](/img/v4_displays_edit_profilesettings.png)
 
@@ -134,7 +134,7 @@ This can also be actioned from the **Edit** form on the General tab by selecting
 
 When no content is scheduled or if there is an issue that prevents a scheduled Event from showing, a **Default Layout** will be shown on Displays to ensure that something is **always** shown! 
 
-Displays will show the global Default Layout as set in [CMS Settings](/guide/tour/cms-settings#content-default-layout) which can be overridden per Display if required:
+Displays will show the global Default Layout as set in [CMS Settings](/tour/cms-settings#content-default-layout) which can be overridden per Display if required:
 
 - Select from the row menu or **Edit** form to choose the Layout to use from the dropdown menu. 
 - Leave this field blank to automatically use the global Default Layout.
@@ -149,13 +149,13 @@ Create your own Layout to select but keep in mind that designs should be kept si
 
 ### Assign Files / Layouts
 
-[Library files](/guide/media/library) and [Layouts](/guide/layouts) can be assigned directly to a Display so that they are always available in the local library of the Player. This is useful for pre-loading a Layout ahead of time when that Layout will be used for some API integration, triggering a change for example.
+[Library files](/media/library) and [Layouts](/layouts) can be assigned directly to a Display so that they are always available in the local library of the Player. This is useful for pre-loading a Layout ahead of time when that Layout will be used for some API integration, triggering a change for example.
 
 - Select which files/Layouts to assign and click to **Save**.
 
 Selected files/Layouts will be downloaded to the Display at the next collection interval. If XMR is installed these will be downloaded immediately.
 
-However, this does NOT mean that Library files and Layouts will be shown and will still need to be [Scheduled](/guide/scheduling/events).
+However, this does NOT mean that Library files and Layouts will be shown and will still need to be [Scheduled](/scheduling/events).
 
 ::: tip
 Files/Layouts can be unassigned from Displays by following the same steps and deselecting items from the top staging area. These will be 'cleaned up' when the Player needs space or after 30 days of the that file/Layout no longer being required.
@@ -166,7 +166,7 @@ Files/Layouts can be unassigned from Displays by following the same steps and de
 The **Send Command** functionality is executed via XMR to Players by selecting a predefined command. This is useful for sending Players 'Reboot' commands for example.
 
 ::: tip
-This type of [Command](/guide/displays/commands) can also be executed by scheduling a [Command Event](/guide/scheduling/events#content-command)
+This type of [Command](/displays/commands) can also be executed by scheduling a [Command Event](/scheduling/events#content-command)
 :::
 
 ### Transfer Display to another CMS
@@ -175,7 +175,7 @@ This type of [Command](/guide/displays/commands) can also be executed by schedul
 Transfer Display to another CMS
 :::
 
-To use this functionality you will first need to activate Google Authenticator using [Two factor Authentication](/guide/tour/user-access#content-two-factor-authentication), if you have not already set this up.
+To use this functionality you will first need to activate Google Authenticator using [Two factor Authentication](/tour/user-access#content-two-factor-authentication), if you have not already set this up.
 
 Once activated, use the row menu for the Display you want to transfer, and select **Transfer to another CMS**
 
@@ -220,4 +220,4 @@ Click the icon - **List** to return to the Display grid view.
 
 #### Next...
 
-[Display Groups](/guide/displays/display-groups) 
+[Display Groups](/displays/display-groups) 

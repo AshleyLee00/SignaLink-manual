@@ -5,7 +5,7 @@ description: 레이아웃과 플레이리스트에서 재생할 비디오 파일
 
 # 비디오
 
-[라이브러리 검색](/layouts/editor/toolbar)에서 레이아웃과 플레이리스트에서 재생할 비디오 파일을 추가하세요.
+[라이브러리 검색](/layouts/editor/library-search)에서 레이아웃과 플레이리스트에서 재생할 비디오 파일을 추가하세요.
 
 ::: info
 비디오|v4

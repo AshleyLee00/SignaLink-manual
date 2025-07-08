@@ -77,7 +77,7 @@ description: 레이아웃 에디터의 유연한 디자인 요소를 사용하�
 
 ![점프 리스트](/img/v4_layouts_jump_list.png)
 
-레이아웃 점프 리스트 옆에는 레이아웃이 [게시된]( /layouts#layouts-in-a-published-status) 상태인지 [초안]( /layouts#layouts-in-a-draft-status) 상태인지에 따라 사용 가능한 작업을 보여주는 항목 메뉴가 있습니다.
+레이아웃 점프 리스트 옆에는 레이아웃이 [게시된](/layouts/index) 상태인지 [초안](/layouts/index) 상태인지에 따라 사용 가능한 작업을 보여주는 항목 메뉴가 있습니다.
 
 ## 속성 패널
 
@@ -106,7 +106,7 @@ description: 레이아웃 에디터의 유연한 디자인 요소를 사용하�
 여기서 업로드된 이미지는 자동으로 CMS 라이브러리에 저장됩니다!
 :::
 
-- 드롭다운을 사용하여 디스플레이에 가장 잘 맞는 [해상도]( /layouts#resolutions)를 설정하세요.
+- 드롭다운을 사용하여 디스플레이에 가장 잘 맞는 [해상도](/layouts/index)를 설정하세요.
 
 ::: tip
 사용자 정의 해상도는 슈퍼 관리자가 생성할 수 있습니다!
@@ -133,7 +133,7 @@ description: 레이아웃 에디터의 유연한 디자인 요소를 사용하�
 ::: tip
 숫자가 높을수록 레이어가 높아집니다.
 
-[컨텍스트 메뉴]( /layouts/editor#context-menu)와 [레이어 제어 패널]( /layouts/editor#layer-control)을 사용하여 선택된 항목을 쉽게 앞뒤로 이동하세요.
+[컨텍스트 메뉴](/layouts/editor)와 [레이어 제어 패널](/layouts/editor)을 사용하여 선택된 항목을 쉽게 앞뒤로 이동하세요.
 :::
 
 ::: warning
@@ -154,7 +154,7 @@ description: 레이아웃 에디터의 유연한 디자인 요소를 사용하�
 
 [템플릿]( /layouts/templates)은 레이아웃 에디터 내의 도구상자에서 선택됩니다.
 
-템플릿 아래의 버튼을 클릭하여 [SignaLink Exchange]( /layouts#SignaLink-exchange)에서 설계된 템플릿 중 하나를 선택하세요!
+템플릿 아래의 버튼을 클릭하여 [SignaLink Exchange](/layouts/index)에서 설계된 템플릿 중 하나를 선택하세요!
 
 ::: warning
 **템플릿**을 선택하면 현재 작업 중인 레이아웃이 선택한 템플릿으로 대체됩니다. 이 작업은 되돌릴 수 없으므로 주의해서 사용해야 합니다.
@@ -209,7 +209,7 @@ description: 레이아웃 에디터의 유연한 디자인 요소를 사용하�
 
 ![위젯 옵션](/img/v4_layouts_editor_widget_options.png)
 
-옵션에는 위젯에 [오디오]( /media/modules/audio) 파일을 첨부하는 것과 사용자/사용자 그룹에 대한 선택된 항목의 보기, 편집 및 삭제를 제어하는 [공유]( /users/features-and-sharing) 옵션이 포함됩니다.
+옵션에는 위젯에 [오디오](/media/widgets/audio) 파일을 첨부하는 것과 사용자/사용자 그룹에 대한 선택된 항목의 보기, 편집 및 삭제를 제어하는 [공유](/users/features-and-sharing) 옵션이 포함됩니다.
 
 ## 미리보기
 

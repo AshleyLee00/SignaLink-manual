@@ -23,7 +23,7 @@ Commands are created and managed from **Commands** under the **Displays** sectio
 
 ![Display Commands](/img/v4_displays_commands.png)
 
-Use the row menu for a Command to Edit, Delete and set [Share](/guide/users/features-and-sharing#content-share) options.
+Use the row menu for a Command to Edit, Delete and set [Share](/users/features-and-sharing#content-share) options.
 
 ### Add Command
 
@@ -170,7 +170,7 @@ Commands containing an intent helper are ignored in the Windows Player!
 **Command Helpers** are prefixes that can be added to the Command String in order to take a more advanced action. Commands without a prefix are executed in the shell of the operating system which runs the Player. `cmd.exe` on Windows and `shell` on Android.
 
 ::: warning
-SignaLink for Android [Helper Command to change Time zone](/docs/setup/helper-command-to-change-time-zone)
+SignaLink for Android Helper Command to change Time zone
 :::
 
 ### Validation
@@ -188,7 +188,7 @@ The same can also be useful with a non-mixed network - imagine a network of Wind
 Select which type of Display the Command will be available on, leave blank to apply the Command to all types of Display.
 
 ::: tip
-**Command** and **Validation** strings can be overridden by editing a [Display Profile](/guide/displays/settings#setting_on_the_display) and using the **Command** tab!
+**Command** and **Validation** strings can be overridden by editing a [Display Profile](/displays/settings#setting_on_the_display) and using the **Command** tab!
 :::
 
 ## Send Command XMR
@@ -200,7 +200,7 @@ Execute Commands via **XMR** from Displays/Display Groups using the row menu:
 **Schedule Commands** so that they are executed at a specific time
 
 - Click on **Schedule** from the main CMS menu.
-- Select [Add Event](scheduling_events.html#content-add-event) from the top of the Schedule grid.
+- Select [Add Event](/scheduling/events#content-add-event) from the top of the Schedule grid.
 
 - From the Event Type drop down select **Command**.
 - Complete the form fields and select the **Command** to use and **Start Time**.
@@ -211,7 +211,7 @@ Scheduled commands are executed once on the Player and only require a **Start** 
 
 ## Shell Commands
 
-Use the [Shell Command Widget](media_module_shellcommand.html) to run external Commands based on the Layouts activity.
+Use the [Shell Command Widget](/media/widgets/shell-command) to run external Commands based on the Layouts activity.
 
 Shell Commands with a Command as their source act in the same fashion as normal shell commands. The Command is executed when the Widget is shown on the Layout.
 

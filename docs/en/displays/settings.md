@@ -124,7 +124,7 @@ This option can be overridden for individual Displays if required.
 
 ### Operating Hours
 
-Set **Operating Hours** for Displays by setting pre-defined [Dayparts](/guide/scheduling/dayparting)
+Set **Operating Hours** for Displays by setting pre-defined [Dayparts](/scheduling/dayparting)
 
 - Use the **Network** tab for Windows, Android and Linux Players, and select the day part to use from the drop down menu.
 - Use the **General** tab for webOS and Tizen Players, and select the day part to use from the drop down menu.
@@ -169,7 +169,7 @@ Please ensure that there is **one default** remaining for each Type.
 
 A **Default Profile** will automatically apply its settings to all Displays of the same Type.
 
-A [Display](/guide/displays) can be overridden to use an alternative Profile from the default. 
+A [Display](/displays) can be overridden to use an alternative Profile from the default. 
 
 Click on **Displays** under the Displays section of the main CMS menu:
 
@@ -182,4 +182,4 @@ Each setting can also be overridden to suit individual Display requirements!
 
 #### Next...
 
-[Reporting](/guide/displays/metrics) 
+[Reporting](/displays/metrics) 

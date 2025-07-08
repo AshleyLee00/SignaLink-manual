@@ -76,9 +76,9 @@ SignaLink 레이아웃 에디터는 사용자에게 다양한 콘텐츠를 추�
 
 ## 추가 읽기
 
-[레이아웃에서 글로벌 요소 사용하기](using_global_elements.html)
+[레이아웃에서 글로벌 요소 사용하기](/layouts/using_global_elements)
 
-[라이브러리 검색 기능 사용하기](using_library_searches.html)
+[라이브러리 검색 기능 사용하기](/layouts/editor/library-search)
 
 ## 자주 묻는 질문
 

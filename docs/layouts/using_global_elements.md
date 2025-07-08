@@ -49,4 +49,4 @@ Digitalware CMS는 다음과 같은 글로벌 요소를 제공합니다:
 
 - [레이아웃 템플릿]( /layouts/templates)
 - [미디어 관리]( /media/)
-- [고급 레이아웃 설정]( /layouts/advanced)
+- [고급 레이아웃 설정](/layouts/editor)

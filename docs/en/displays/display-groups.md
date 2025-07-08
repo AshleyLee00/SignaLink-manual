@@ -5,9 +5,9 @@ description: Create Display Groups for ease of scheduling and media assignment
 
 # Display Groups
 
-Create Display Groups to group together specific [Displays](/guide/displays) for easier Scheduling and management as your SignaLink system grows.
+Create Display Groups to group together specific [Displays](/displays) for easier Scheduling and management as your SignaLink system grows.
 
-Display Groups can contain both singular **Displays** as well as other **Display Groups**. This allows you to target large numbers of Displays with just a simple [Schedule](/guide/scheduling/events)
+Display Groups can contain both singular **Displays** as well as other **Display Groups**. This allows you to target large numbers of Displays with just a simple [Schedule](/scheduling/events)
 
 ## Display Group Administration
 
@@ -19,10 +19,10 @@ Use the **Add Display Group** button to create a new Display Group and complete 
 
 ![Add Display Group](/img/v4_displays_groups_add.png)
 
-Display Groups can be saved to [Folders](/guide/tour/folders) to easily control User/User Group levels of interaction for Display Groups as well as provide an additional way to organise.
+Display Groups can be saved to [Folders](/tour/folders) to easily control User/User Group levels of interaction for Display Groups as well as provide an additional way to organise.
 
 ::: tip
-Display Groups that are saved in Folders will inherit the View, Edit, Delete [Share](/guide/users/features-and-sharing#content-share) options that been applied to the destination Folder for the User/User Group!
+Display Groups that are saved in Folders will inherit the View, Edit, Delete [Share](/users/features-and-sharing#content-share) options that been applied to the destination Folder for the User/User Group!
 :::
 
 Displays need to be assigned to the Display Group in one of two ways, by manually adding or it can be controlled with filter criteria as a Dynamic Group.
@@ -91,7 +91,7 @@ Each Display Group has a row menu containing a number of actions/shortcuts.
 
 - Click on **Members** to manage the membership of Display Groups which have had Displays manually assigned.
 - Use **Edit** to view the criteria used for dynamic memberships and to make changes if required.
-- Directly [Assign Library files and Layouts](/guide/displays#assign-files--layouts) to a Display Group so that they are always available in the local library of the Player.
+- Directly [Assign Library files and Layouts](/displays#assign-files--layouts) to a Display Group so that they are always available in the local library of the Player.
 
 ::: tip
 Use the **With Selected** option at the bottom of the grid to easily perform bulk actions for multiple Display Groups!
@@ -99,4 +99,4 @@ Use the **With Selected** option at the bottom of the grid to easily perform bul
 
 #### Next...
 
-[Display Sync Groups](/guide/displays/sync-groups) 
+[Display Sync Groups](/displays/sync-groups) 

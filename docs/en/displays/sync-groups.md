@@ -5,7 +5,7 @@ description: Sync Groups contain Displays to show synchronised content
 
 # Sync Groups
 
-Sync Groups contain the Displays that will show synchronised content. Content can be synchronised to play across 2 or more Displays in a mirrored or video wall configuration when scheduling a [Synchronised Event](/guide/scheduling/events#synchronised-events).
+Sync Groups contain the Displays that will show synchronised content. Content can be synchronised to play across 2 or more Displays in a mirrored or video wall configuration when scheduling a [Synchronised Event](/scheduling/events#synchronised-events).
 
 ::: feat
 Sync Groups|v4
