@@ -48,7 +48,9 @@ Allow **ANY** User to initiate a Library tidy from the Library page by enabling 
 
 - Click on the General tab and use the checkbox for **Enable Library Tidy.**
 
-![Enable Library Tidy](/img/media_settings_enable_librarytidy.png)
+::: tip
+Enable Library Tidy option can be found in the Settings page.
+:::
 
 Once enabled Users can click on a **Tidy Library** button located at the top of the Library page.
 

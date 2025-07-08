@@ -15,7 +15,9 @@ Settings can be configured from the **Settings** page under the **Administration
 
 - Click on the **Defaults** tab:
 
-![Resizing Images](/img/v3_media_resizing_images.png)
+::: tip
+Configure image resizing settings in the Defaults tab of the Settings page.
+:::
 
 ## Resize Threshold
 
