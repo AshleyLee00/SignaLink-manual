@@ -135,7 +135,8 @@ export default defineConfig({
   description: "SignaLink Documentation",
   base: '/SignaLink-manual/',
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: '/signalink/favicon.png' }]
+    ['link', { rel: 'icon', type: 'image/png', href: '/signalink/favicon.png' }],
+    ['link', { rel: 'preload', href: '/NoonnuBasicGothicRegular.ttf', as: 'font', type: 'font/ttf', crossorigin: 'anonymous' }]
   ],
   vite: {
     css: {
