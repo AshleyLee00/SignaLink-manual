@@ -25,8 +25,6 @@ There are two places where the Library can be tidied:
 
 Super Administrators can initiate a system-wide Library tidy operation by navigating to the Settings page under the Administration section on the Menu. Click on the General tab and click on the **Tidy Library** button.
 
-![Settings Tidy Library](/img/media_settings_tidylibrary.png)
-
 As this functionality is system-wide and therefore operates on **ALL** User files, confirmation is required to remove unused and old revisions.
 
 This option is more comprehensive and removes:
@@ -53,8 +51,6 @@ Enable Library Tidy option can be found in the Settings page.
 :::
 
 Once enabled Users can click on a **Tidy Library** button located at the top of the Library page.
-
-![Tidy from Library](/img/media_library_tidylibrary.png)
 
 The form will show the number of files that will be deleted and how much space those files take up.
 
