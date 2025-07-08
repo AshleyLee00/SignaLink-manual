@@ -33,6 +33,6 @@ SignaLink는 **레이아웃 편집기**를 사용할 때 **도구상자**에서 
 
 ## 추가 읽기
 
-[레이아웃 편집기 개요](layout_editor_overview.html)
+[레이아웃 편집기 개요](/layouts/layout-editor-overview)
 
-[라이브러리 검색 기능 사용하기](using_library_searches.html) 
+[라이브러리 검색 기능 사용하기](using-library-searches.html) 

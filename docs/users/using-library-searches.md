@@ -41,15 +41,15 @@ Pixabay에서 사용된 모든 이미지/비디오는 자동으로 CMS 라이브
 
 ## 추가 읽기
 
-[레이아웃 편집기 탐색](layout_editor_overview.html)
+[레이아웃 편집기 탐색](/layouts/layout-editor-overview)
 
-[디스플레이에 재생목록 표시하기](showing_a_playlist_on_displays.html)
+[디스플레이에 재생목록 표시하기](/displays#재생목록-표시)
 
-[완전한 HTML 패키지 표시하기](media_module_htmlpackage.html)
+[완전한 HTML 패키지 표시하기](/media/widgets/html-package)
 
-[PDF 파일 표시하기](media_module_pdf.html)
+[PDF 파일 표시하기](/media/widgets/pdf)
 
-[PowerPoint 프레젠테이션 표시하기](media_module_powerpoint.html)
+[PowerPoint 프레젠테이션 표시하기](/media/widgets/powerpoint)
 
 ## 자주 묻는 질문
 

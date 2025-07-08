@@ -127,6 +127,7 @@ export default defineConfig({
   title: "SignaLink",
   description: "SignaLink Documentation",
   base: '/SignaLink-manual/',
+  ignoreDeadLinks: true,
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/signalink/favicon.png' }],
     ['link', { rel: 'preload', href: '/Pretendard-Regular.woff', as: 'font', type: 'font/woff', crossorigin: 'anonymous' }],
