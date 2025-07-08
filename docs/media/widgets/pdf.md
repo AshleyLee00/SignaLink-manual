@@ -27,4 +27,4 @@ PDF 기능은 **v4**에서 도입되었습니다.
 또는 **Configure** 탭에서 개별 페이지별로 시간을 설정할 수도 있습니다.
 :::
 
-![PDF 미리보기](img/v4_media_module_pdf.png)
+![PDF 미리보기](/img/v4_media_module_pdf.png)
