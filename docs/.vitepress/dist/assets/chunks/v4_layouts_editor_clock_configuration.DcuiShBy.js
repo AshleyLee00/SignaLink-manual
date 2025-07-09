@@ -1,0 +1,1 @@
+const i="/SignaLink-manual/img/v4_layouts_editor_widgets.png",_="/SignaLink-manual/img/v4_layouts_editor_widgets_favourites.png",a="/SignaLink-manual/img/v4_layouts_editor_widgets_clock_example.png",n="/SignaLink-manual/img/v4_layouts_editor_clock_configuration.png";export{i as _,_ as a,a as b,n as c};

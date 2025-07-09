@@ -1,0 +1,1 @@
+const a="/SignaLink-manual/img/v4_layouts_campaign_add_ad_campaign.png",n="/SignaLink-manual/img/v4_campaigns_edit_ad_campaign.png",i="/SignaLink-manual/img/v4_campaigns_assign_layouts_ad_campaign.png",_="/SignaLink-manual/img/v4_campaigns_view_added_ad_campaigns.png",g="/SignaLink-manual/img/v4_campaigns_ad_campaign_grid.png";export{a as _,n as a,i as b,_ as c,g as d};

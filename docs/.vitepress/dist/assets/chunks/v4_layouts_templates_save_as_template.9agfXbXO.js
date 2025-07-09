@@ -1,0 +1,1 @@
+const a="/SignaLink-manual/img/v4_layouts_templates_editor.png",t="/SignaLink-manual/img/v4_layouts_templates_add_zone.png",_="/SignaLink-manual/img/v4_layouts_templates_publish.png",s="/SignaLink-manual/img/v4_layouts_templates_save_as_template.png";export{a as _,t as a,_ as b,s as c};

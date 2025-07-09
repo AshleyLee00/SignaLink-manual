@@ -1,0 +1,1 @@
+const n="/SignaLink-manual/img/v4_users_notification_feature.png",i="/SignaLink-manual/img/v4_users_notifications_system.png",s="/SignaLink-manual/img/v4_users_notification_bell.png",a="/SignaLink-manual/img/v4_users_notification_centre.png";export{n as _,i as a,s as b,a as c};
